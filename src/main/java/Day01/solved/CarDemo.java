@@ -14,6 +14,8 @@ package Day01.solved;
  */
 class Car {
 
+	
+	
 	private int speed = 0;
 	private int gear = 1;
 
