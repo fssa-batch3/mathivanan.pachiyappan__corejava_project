@@ -1,5 +1,7 @@
 package Day02.mise;
 
+import Day02.solved.ShapeCalculator;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -18,6 +20,11 @@ public class App {
 		System.out.println(Student.count);
 
 		Student student_02 = new Student();
+		
+		ShapeCalculator calculator = new ShapeCalculator();
+		double circleArea = calculator.calculateArea(3.5); // Output: 38.48451000647496
+		double rectangleArea = calculator.calculateArea(4.2, 6.8); // Output: 28.559999999999995
+		
 
 		student_02.setEmail("sesslyn002@gmail.com");
 		student_02.setName("Sesslyn");
