@@ -1,0 +1,16 @@
+package Day05.solved;
+
+class Car {
+	Engine engine;
+	String maker;
+
+	public Car(String maker, Engine engine) {
+		this.engine = engine;
+		this.maker = maker;
+	}
+
+	public void printCarDetails() {
+		System.out.println("Maker: " + maker);
+		this.engine.printEngineDetails();
+	}
+}
