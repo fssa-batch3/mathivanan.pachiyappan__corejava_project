@@ -40,14 +40,10 @@ public class ListTask {
 	public static void main(String[] args) {
 		ArrayList<Task1> tasks = new ArrayList<>();
 
-		Task1 modelTask1 = new Task1(3, "Eat", LocalDate.parse("2022-10-22", DateTimeFormatter.ofPattern("yyyy-MM-dd")),
-				3);
-		Task1 modelTask2 = new Task1(5, "Sleep",
-				LocalDate.parse("2022-10-01", DateTimeFormatter.ofPattern("yyyy-MM-dd")), 1);
-		Task1 modelTask3 = new Task1(1, "Study",
-				LocalDate.parse("2022-10-07", DateTimeFormatter.ofPattern("yyyy-MM-dd")), 2);
-		Task1 modelTask4 = new Task1(3, "Code",
-				LocalDate.parse("2022-10-22", DateTimeFormatter.ofPattern("yyyy-MM-dd")), 1);
+		Task1 modelTask1 = new Task1(3, "Eat", LocalDate.parse("2022-10-22", DateTimeFormatter.ofPattern("yyyy-MM-dd")),3);
+		Task1 modelTask2 = new Task1(5, "Sleep",LocalDate.parse("2022-10-01", DateTimeFormatter.ofPattern("yyyy-MM-dd")), 1);
+		Task1 modelTask3 = new Task1(1, "Study",LocalDate.parse("2022-10-07", DateTimeFormatter.ofPattern("yyyy-MM-dd")), 2);
+		Task1 modelTask4 = new Task1(3, "Code",LocalDate.parse("2022-10-22", DateTimeFormatter.ofPattern("yyyy-MM-dd")), 1);
 
 		// Sample tasks
 		tasks.add(modelTask1);
